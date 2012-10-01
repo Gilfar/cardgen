@@ -1,0 +1,68 @@
+
+[prompt]
+output.clean = 1
+
+[card generation]
+card.set.random = 0
+card.flavor.random = 0
+card.larger.regular.symbols = 0
+card.artist.and.copyright = 1
+card.copyright = "&#8482; & &#169; 1993-2012 Wizards of the Coast LLC"
+card.reminder.text = 1
+
+[card text]
+card.text.use.font.size.cache = 0
+card.text.symbol.spacing = 2
+card.text.symbol.height.percentage = 110
+card.text.double.spacing = 50
+
+[renderers]
+render.eighth = 1
+render.preEighth = 1
+render.preEighth.basic.land.frames = 1
+render.decklist = 0
+render.vanguard = 1
+render.planeswalker = 1
+render.plane = 1
+
+[decklist parsing]
+decklist.delimiter = ,
+decklist.ignore.sets = 0
+decklist.ignore.picture.numbers = 0
+
+[output - general]
+output.directory = output/
+output.suffix =
+output.extension = png
+output.language = ;
+output.english.flavor.text = 0
+output.english.title.on.translated.card = 0
+output.clean = 1
+
+[output - card images]
+output.card.width =
+output.card.set.directories = 0
+output.skip.existing.images = 0
+
+[output - page images]
+output.page.rows = 3
+output.page.columns = 3
+output.page.rotate = 0
+output.page.rotate.last.rows = 1
+output.page.rotate.align.right = 0
+output.page.offset.top = 0
+output.page.offset.left = 0
+output.page.offset.bottom = 0
+output.page.offset.right = 0
+output.card.border = 45
+output.card.spacing = 10
+output.card.offsets.x =
+output.card.offsets.y =
+
+[cropped art]
+art.random = 0
+art.keep.aspect.ratio = 1
+art.directory = e:\mtg\pics
+art.extension = jpg
+art.error.when.missing = 0
+art.debug = 0

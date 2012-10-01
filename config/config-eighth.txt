@@ -1,0 +1,108 @@
+
+[prompt]
+
+[card generation]
+card.timeshifted.frames = PLC
+card.multicolor.frames = ;4,5
+card.multicolor.land.frames = 2
+card.multicolor.fetch.land.frames = 1
+card.multicolor.dual.borders = 1
+card.multicolor.grey.title.and.type = 1
+card.artifact.color = 1,2
+card.basic.land.set.symbols = 1
+card.dual.land.symbols = 1
+card.artist.gears = 0
+
+[fonts]
+font.text = 28, MPlantin.ttf/MPlantinI.ttf, leading:28
+font.artist = 22, MatrixB.ttf>GaramondB.ttf
+font.copyright = 13, MPlantin.ttf
+
+[fonts - regular]
+font.title = 35, MatrixB.ttf/MatrixBI.ttf>GaramondB.ttf/GaramondBI.ttf
+font.type = 30, MatrixB.ttf>GaramondB.ttf
+font.pt = 36, MatrixBSmallCaps.ttf>GaramondB.ttf, centerY:true centerX:true
+
+[fonts - timeshifted]
+font.title = 35, MatrixB.ttf>GaramondB.ttf, color:255,255,255 shadow:true
+font.type = 30, MatrixB.ttf>GaramondB.ttf, color:255,255,255 shadow:true
+font.pt = 36, MatrixBSmallCaps.ttf>GaramondB.ttf, centerY:true centerX:true color:255,255,255 shadow:true
+
+[fonts - miracle]
+font.title = 35, MatrixB.ttf/MatrixBI.ttf>GaramondB.ttf/GaramondBI.ttf
+font.type = 30, MatrixB.ttf>GaramondB.ttf
+font.pt = 36, MatrixBSmallCaps.ttf>GaramondB.ttf, centerY:true centerX:true
+
+[fonts - transform-day]
+font.title = 35, MatrixB.ttf/MatrixBI.ttf>GaramondB.ttf/GaramondBI.ttf
+font.type = 30, MatrixB.ttf>GaramondB.ttf
+font.pt = 36, MatrixBSmallCaps.ttf>GaramondB.ttf, centerY:true centerX:true
+font.pt.transform = 25, MatrixBoldSmallCaps.ttf>GaramondB.ttf, centerY:true alignRight:true
+
+[fonts - transform-night]
+font.title = 35, MatrixB.ttf/MatrixBI.ttf>GaramondB.ttf/GaramondBI.ttf, color:255,255,255
+font.type = 30, MatrixB.ttf>GaramondB.ttf, color:255,255,255
+font.pt = 36, MatrixBSmallCaps.ttf>GaramondB.ttf, centerY:true centerX:true color:255,255,255
+
+[layout - flip]
+art.top = 315
+art.left = 42
+art.bottom = 689
+art.right = 692
+pt.upper.center.x = 655
+pt.upper.center.y = 275
+pt.upper.width = 72
+type.upper.y = 290
+text.upper.top = 107
+text.upper.bottom = 242
+pt.lower.center.x = 655
+pt.lower.center.y = 320
+pt.lower.width = 72
+title.lower.y = 123
+type.lower.y = 333
+text.lower.top = 152
+text.lower.bottom = 286
+rarity.center.y = 1007
+
+[layout - miracle]
+
+[layout - transform-day]
+title.x = 105
+pt.transform.center.x = 610
+pt.transform.center.y = 935
+pt.transform.width = 80
+
+[layout - transform-night]
+title.x = 105
+type.x = 87
+type.art.x = 52
+
+[layout - regular]
+title.x = 43
+title.y = 78
+cost.right = 696
+cost.top = 48
+cost.top.dual = 47
+cost.size = 35
+art.top = 104
+art.left = 42
+art.bottom = 584
+art.right = 692
+type.x = 52
+type.y = 635
+rarity.center.y = 623
+rarity.right = 696
+rarity.height = 45
+rarity.width = 0
+text.top = 667
+text.left = 50
+text.bottom = 956
+text.right = 687
+text.pt.height.adjust = 14
+pt.center.y = 983
+pt.center.x = 631
+pt.width = 114
+artist.x = 38;95
+artist.y = 1006
+copyright.x = 39
+copyright.y = 1030

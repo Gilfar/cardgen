@@ -1,0 +1,70 @@
+
+[prompt]
+
+[card generation]
+card.new.avatar.frame = 0
+
+[fonts - new]
+font.title = 30, Pre8th.ttf, centerX:true color:255,255,255 shadow:true
+font.hand.and.life = 25, MPlantinB.ttf, centerX:true centerY:true
+font.text = 30, MPlantin.ttf/MPlantinI.ttf, leading:45
+font.artist = 22, MPlantin.ttf, centerX:true
+font.copyright = 13, MPlantin.ttf, color:255,255,255
+
+[layout - new]
+art.top = 66
+art.left = 57
+art.right = 734
+art.bottom = 708
+title.x = 368
+title.y = 53
+title.width = 328
+hand.x = 52
+hand.y = 655
+hand.width = 32
+life.x = 679
+life.y = 655
+life.width = 32
+text.top = 704
+text.left = 100
+text.bottom = 924
+text.right = 636
+artist.x = 365
+artist.y = 973
+copyright.y = 999
+copyright.x = 52
+
+[fonts - old]
+font.title = 35, Septimus.ttf>GaramondB.ttf, centerX:true
+font.hand.and.life = 25, Septimus.ttf>GaramondB.ttf, centerX:true centerY:true
+font.text = 20, Perpetua-Bold.ttf>MPlantinB.ttf/Perpetua-Italic.ttf>MPlantinI.ttf, leading:45
+font.artist = 13, MinionPro-Regular.otf>MPlantin.ttf, centerX:true
+font.copyright = 10, MPlantin.ttf, color:0,0,0 centerX:true
+
+
+[layout - old]
+art.top = 88
+art.left = 73
+art.right = 659
+art.bottom = 610
+title.x = 368
+title.y = 78
+title.width = 493
+hand.x = 87
+hand.y = 915
+hand.width = 38
+life.x = 643
+life.y = 915
+life.width = 38
+legal.top = 668
+legal.left = 90
+legal.bottom = 780
+legal.right = 647
+flavor.top = 795
+flavor.left = 145
+flavor.bottom = 941
+flavor.right = 595
+artist.x = 370
+artist.y = 965
+copyright.x = 370
+copyright.y = 983

@@ -1,0 +1,48 @@
+
+[prompt]
+
+[card generation]
+card.tombstone = 1
+card.multicolor.land.frames = 2
+card.multicolor.fetch.land.frames = 1
+card.basic.land.set.symbols = 1
+card.dual.land.symbols = 1
+card.rarity.fallback = 0
+
+[fonts]
+font.title = 34, Pre8th.ttf, color:255,255,255 shadow:true
+font.type = 26, MPlantin.ttf, color:255,255,255 shadow:true
+font.text = 26, MPlantin.ttf/MPlantinI.ttf, leading:45
+font.pt = 36, MPlantinB.ttf, color:255,255,255 shadow:true centerX:true
+font.artist = 22, MPlantin.ttf, color:255,255,255 shadow:true centerX:true
+font.copyright = 13, MPlantin.ttf, centerX:true
+
+[layout]
+tombstone.left = 25
+tombstone.top = 28
+title.x = 62
+title.y = 63
+cost.top = 31
+cost.right = 700
+cost.size = 38
+art.top = 86
+art.left = 66
+art.bottom = 572
+art.right = 668
+type.x = 62
+type.y = 617
+rarity.center.y = 606
+rarity.right = 678
+rarity.height = 42
+rarity.width = 76
+text.top = 648
+text.left = 78
+text.bottom = 928
+text.right = 654
+pt.center.x = 660
+pt.center.y = 1000
+pt.width = 111
+artist.x = 368
+artist.y = 981
+copyright.x = 368
+copyright.y = 1005

@@ -1,0 +1,92 @@
+
+[prompt]
+
+[card generation]
+card.timeshifted.frames = PLC
+card.multicolor.frames = ;2
+card.multicolor.land.frames = 2;2
+card.multicolor.fetch.land.frames = 1
+card.multicolor.dual.borders = 1
+card.multicolor.grey.title.and.type = 1
+card.artifact.color = 1,2
+card.basic.land.set.symbols = 1
+card.dual.land.symbols = 1
+card.artist.gears = 0
+
+[fonts]
+font.text = 28, MPlantin.ttf/MPlantinI.ttf, leading:28
+font.artist = 22, MatrixB.ttf/GaramondBI.ttf
+font.copyright = 13, MPlantin.ttf
+
+[fonts - regular]
+font.title = 35, MatrixB.ttf/GaramondBI.ttf
+font.type = 30, MatrixB.ttf/GaramondBI.ttf
+font.pt = 36, MatrixBSmallCaps.ttf, centerY:true centerX:true
+
+[layout - level]
+title.x = 43
+title.y = 78
+cost.right = 696
+cost.top = 48
+cost.top.dual = 47
+cost.size = 35
+art.top = 104
+art.left = 42
+art.bottom = 584
+art.right = 692
+type.x = 52
+type.y = 635
+rarity.center.y = 623
+rarity.right = 696
+rarity.height = 45
+rarity.width = 0
+
+text.1.top = 670
+text.1.left = 50
+text.1.bottom = 755
+text.1.right = 560
+
+text.2.top = 765
+text.2.left = 175
+text.2.bottom = 850
+text.2.right = 560
+
+text.3.top = 860
+text.3.left = 175
+text.3.bottom = 953
+text.3.right = 560
+
+text.pt.height.adjust = 7
+
+pt.1.center.x = 636
+pt.1.center.y = 715
+pt.1.width = 114
+
+pt.2.center.x = 636
+pt.2.center.y = 813
+pt.2.width = 114
+
+pt.3.center.x = 636
+pt.3.center.y = 910
+pt.3.width = 114
+
+level.2.center.x = 91
+level.2.center.y = 823
+level.2.width = 114
+
+level.3.center.x = 91
+level.3.center.y = 920
+level.3.width = 114
+
+name.2.center.x = 91
+name.2.center.y = 795
+name.2.width = 50
+
+name.3.center.x = 91
+name.3.center.y = 892
+name.3.width = 50
+
+artist.x = 38;95
+artist.y = 1006
+copyright.x = 39
+copyright.y = 1030

@@ -1,0 +1,482 @@
+Vintage (T1)
+BANNED
+Amulet of Quoz
+Bronze Tablet
+Chaos Orb
+Contract from Below
+Darkpact
+Demonic Attorney
+Falling Star
+Jeweled Bird
+Rebirth
+Shahrazad
+Tempest Efreet
+Timmerian Fiends
+RESTRICTED
+Ancestral Recall
+Balance
+Black Lotus
+Brainstorm
+Burning Wish
+Channel
+Demonic Consultation
+Demonic Tutor
+Fastbond
+Flash
+Gifts Ungiven
+Imperial Seal
+Library of Alexandria
+Lion's Eye Diamond
+Lotus Petal
+Mana Crypt
+Mana Vault
+Memory Jar
+Merchant Scroll
+Mind's Desire
+Mox Emerald
+Mox Jet
+Mox Pearl
+Mox Ruby
+Mox Sapphire
+Mystical Tutor
+Necropotence
+Ponder
+Regrowth
+Sol Ring
+Strip Mine
+Thirst for Knowledge
+Time Vault
+Time Walk
+Timetwister
+Tinker
+Tolarian Academy
+Trinisphere
+Vampiric Tutor
+Wheel of Fortune
+Windfall
+Yawgmoth's Bargain
+Yawgmoth's Will
+SETS
+Promo - Release Events
+Promo - Prerelease Events
+Promo - Judge Gift Cards
+Promo - Gateway
+Promo - FNM
+Promo - Champs
+Promo - Arena
+Promo - Two-Headed Giant
+Promo - Summer of Magic
+Promo - Happy Holidays
+Promo - Armada Comics
+Promo - DCI Legend Membership
+Promo - Pro Tour
+Promo - Convention
+Promo - Video Game
+Promo - Grand Prix
+Promo - Stores
+Promo - Junior Series
+Full Box Promotion
+Magic Game Day
+Book Inserts
+Magazine Inserts
+Comic Inserts
+Richard Garfield Events
+Alternate Art Lands
+Magic Player Rewards
+World Championship Cards
+Vanguard
+Starter 1999
+Starter 2000
+Deckmasters 2001
+Beatdown
+Anthologies
+Battle Royale
+Duel Decks: Elves vs Goblins
+From the Vault: Dragons
+Duel Decks: Jace vs Chandra
+Duel Decks: Divine vs Demonic
+Planechase
+Planechase 2012 Edition
+From the Vault: Exiled
+Premium Deck Series: Slivers
+Duel Decks: Garruk vs. Liliana
+Duel Decks: Phyrexia vs. the Coalition
+Archenemy
+Duels of the Planeswalker
+Introductory Two-Player Starter
+Alpha
+Beta
+Unlimited
+Arabian Nights
+Antiquities
+Revised
+Legends
+The Dark
+Fallen Empires
+Fourth Edition
+Chronicles
+Homelands
+Ice Age
+Alliances
+Coldsnap
+Coldsnap Theme Decks
+Portal
+Portal Second Age
+Portal Three Kingdoms
+Mirage
+Fifth Edition
+Visions
+Weatherlight
+Tempest
+Stronghold
+Exodus
+Urza's Saga
+Sixth Edition
+Urza's Legacy
+Urza's Destiny
+Mercadian Masques
+Nemesis
+Prophecy
+Invasion
+Planeshift
+Apocalypse
+Odyssey
+Seventh Edition
+Torment
+Judgment
+Onslaught
+Legions
+Scourge
+Mirrodin
+Eighth Edition
+Darksteel
+Fifth Dawn
+Champions of Kamigawa
+Ninth Edition
+Betrayers of Kamigawa
+Saviors of Kamigawa
+Ravnica: City of Guilds
+Guildpact
+Dissension
+Time Spiral
+Time Spiral Timeshifted
+Planar Chaos
+Future Sight
+Tenth Edition
+Lorwyn
+Morningtide
+Shadowmoor
+Eventide
+Shards of Alara
+Conflux
+Alara Reborn
+Magic 2010
+Zendikar
+Worldwake
+Rise of the Eldrazi
+Magic 2011
+Scars of Mirrodin
+Mirrodin Besieged
+New Phyrexia
+Magic 2012
+Innistrad
+Dark Ascension
+Avacyn Restored
+Magic 2013
+
+Legacy (T1.5)
+BANNED
+Amulet of Quoz
+Ancestral Recall
+Balance
+Bazaar of Baghdad
+Black Lotus
+Black Vise
+Bronze Tablet
+Channel
+Chaos Orb
+Contract from Below
+Darkpact
+Demonic Attorney
+Demonic Consultation
+Demonic Tutor
+Earthcraft
+Falling Star
+Fastbond
+Flash
+Frantic Search
+Goblin Recruiter
+Gush
+Hermit Druid
+Imperial Seal
+Jeweled Bird
+Land Tax
+Library of Alexandria
+Mana Crypt
+Mana Drain
+Mana Vault
+Memory Jar
+Mental Misstep
+Mind Twist
+Mind's Desire
+Mishra's Workshop
+Mox Emerald
+Mox Jet
+Mox Pearl
+Mox Ruby
+Mox Sapphire
+Mystical Tutor
+Necropotence
+Oath of Druids
+Rebirth
+Shahrazad
+Skullclamp
+Sol Ring
+Strip Mine
+Survival of the Fittest
+Tempest Efreet
+Time Vault
+Time Walk
+Timetwister
+Timmerian Fiends
+Tinker
+Tolarian Academy
+Vampiric Tutor
+Wheel of Fortune
+Windfall
+Worldgorger Dragon
+Yawgmoth's Bargain
+Yawgmoth's Will
+SETS
+Promo - Release Events
+Promo - Prerelease Events
+Promo - Judge Gift Cards
+Promo - Gateway
+Promo - FNM
+Promo - Champs
+Promo - Arena
+Promo - Two-Headed Giant
+Promo - Summer of Magic
+Promo - Happy Holidays
+Promo - Armada Comics
+Promo - DCI Legend Membership
+Promo - Pro Tour
+Promo - Convention
+Promo - Video Game
+Promo - Grand Prix
+Promo - Stores
+Promo - Junior Series
+Full Box Promotion
+Magic Game Day
+Book Inserts
+Magazine Inserts
+Comic Inserts
+Richard Garfield Events
+Alternate Art Lands
+Magic Player Rewards
+World Championship Cards
+Vanguard
+Starter 1999
+Starter 2000
+Deckmasters 2001
+Beatdown
+Anthologies
+Battle Royale
+Duel Decks: Elves vs Goblins
+From the Vault: Dragons
+Duel Decks: Jace vs Chandra
+Duel Decks: Divine vs Demonic
+Planechase
+Planechase 2012 Edition
+From the Vault: Exiled
+Premium Deck Series: Slivers
+Duel Decks: Garruk vs. Liliana
+Duel Decks: Phyrexia vs. the Coalition
+Archenemy
+Duels of the Planeswalker
+Introductory Two-Player Starter
+Alpha
+Beta
+Unlimited
+Arabian Nights
+Antiquities
+Revised
+Legends
+The Dark
+Fallen Empires
+Fourth Edition
+Chronicles
+Homelands
+Ice Age
+Alliances
+Coldsnap
+Coldsnap Theme Decks
+Portal
+Portal Second Age
+Portal Three Kingdoms
+Mirage
+Fifth Edition
+Visions
+Weatherlight
+Tempest
+Stronghold
+Exodus
+Urza's Saga
+Sixth Edition
+Urza's Legacy
+Urza's Destiny
+Mercadian Masques
+Nemesis
+Prophecy
+Invasion
+Planeshift
+Apocalypse
+Odyssey
+Seventh Edition
+Torment
+Judgment
+Onslaught
+Legions
+Scourge
+Mirrodin
+Eighth Edition
+Darksteel
+Fifth Dawn
+Champions of Kamigawa
+Ninth Edition
+Betrayers of Kamigawa
+Saviors of Kamigawa
+Ravnica: City of Guilds
+Guildpact
+Dissension
+Time Spiral
+Time Spiral Timeshifted
+Planar Chaos
+Future Sight
+Tenth Edition
+Lorwyn
+Morningtide
+Shadowmoor
+Eventide
+Shards of Alara
+Conflux
+Alara Reborn
+Magic 2010
+Zendikar
+Worldwake
+Rise of the Eldrazi
+Magic 2011
+Scars of Mirrodin
+Mirrodin Besieged
+New Phyrexia
+Magic 2012
+Innistrad
+Dark Ascension
+Avacyn Restored
+Magic 2013
+
+Extended (T1.x)
+BANNED
+Jace, the Mind Sculptor
+Mental Misstep
+Ponder
+Preordain
+Stoneforge Mystic
+SETS
+Shards of Alara
+Conflux
+Alara Reborn
+Magic 2010
+Zendikar
+Worldwake
+Rise of the Eldrazi
+Magic 2011
+Scars of Mirrodin
+Mirrodin Besieged
+New Phyrexia
+Magic 2012
+Innistrad
+Dark Ascension
+Avacyn Restored
+Magic 2013
+
+Standard (T2)
+SETS
+Scars of Mirrodin
+Mirrodin Besieged
+New Phyrexia
+Magic 2012
+Innistrad
+Dark Ascension
+Avacyn Restored
+Magic 2013
+
+Modern
+BANNED
+Ancestral Vision
+Ancient Den
+Bitterblossom
+Blazing Shoal
+Chrome Mox
+Cloudpost
+Dark Depths
+Dread Return
+Glimpse of Nature
+Golgari Grave-Troll
+Great Furnace
+Green Sun's Zenith
+Hypergenesis
+Jace, the Mind Sculptor
+Mental Misstep
+Ponder
+Preordain
+Rite of Flame
+Seat of the Synod
+Sensei's Divining Top
+Stoneforge Mystic
+Skullclamp
+Sword of the Meek
+Tree of Tales
+Umezawa's Jitte
+Valakut, the Molten Pinnacle
+Vault of Whispers
+Wild Nacatl
+SETS
+Mirrodin
+Eighth Edition
+Darksteel
+Fifth Dawn
+Champions of Kamigawa
+Ninth Edition
+Betrayers of Kamigawa
+Saviors of Kamigawa
+Ravnica: City of Guilds
+Guildpact
+Dissension
+Coldsnap
+Coldsnap Theme Decks
+Time Spiral
+Time Spiral Timeshifted
+Planar Chaos
+Future Sight
+Tenth Edition
+Lorwyn
+Morningtide
+Shadowmoor
+Eventide
+Shards of Alara
+Conflux
+Alara Reborn
+Magic 2010
+Zendikar
+Worldwake
+Rise of the Eldrazi
+Magic 2011
+Scars of Mirrodin
+Mirrodin Besieged
+New Phyrexia
+Magic 2012
+Innistrad
+Dark Ascension
+Avacyn Restored
+Magic 2013

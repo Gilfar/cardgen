@@ -1,0 +1,39 @@
+
+[prompt]
+
+[card generation]
+card.artist.gears = 0
+
+[fonts]
+font.text = 20, MPlantin.ttf/MPlantinI.ttf, leading:45
+font.chaos = 20, MPlantin.ttf/MPlantinI.ttf, leading:45
+font.artist = 18, MatrixB.ttf>GaramondB.ttf, centerX:true
+font.copyright = 10, MPlantin.ttf, centerX:true
+font.title = 30, MatrixB.ttf>GaramondB.ttf, centerX:true
+font.type = 25, MatrixB.ttf>GaramondB.ttf, centerX:true
+
+[layout]
+title.x = 525
+title.y = 60
+art.top = 0
+art.left = 0
+art.bottom = 736
+art.right = 1050
+type.x = 525
+type.y = 524
+rarity.center.y = 515
+rarity.right = 838
+rarity.height = 24
+rarity.width = 0
+text.top = 535
+text.left = 115
+text.bottom = 615
+text.right = 931
+chaos.top = 628
+chaos.left = 190
+chaos.bottom = 690
+chaos.right = 938
+artist.x = 525
+artist.y = 722
+copyright.x = 525
+copyright.y = 736

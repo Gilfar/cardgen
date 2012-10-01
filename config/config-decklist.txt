@@ -1,0 +1,27 @@
+
+[prompt]
+
+[card generation]
+decklist.debug.legality = 0
+
+[fonts]
+font.title = 33, MPlantin.ttf
+font.title = 33, MPlantin.ttf/MPlantin.ttf
+font.count = 16, MPlantin.ttf
+font.cards = 23, MPlantin.ttf, leading:45
+
+[layout]
+title.x = 40
+title.y = 54
+colors.right = 720
+colors.top = 17
+legality.left = 24
+legality.top = 1002
+count.right = 710
+count.y = 1022
+cards.top = 70
+cards.bottom = 975
+cards.column.1.left = 67
+cards.column.1.right = 382
+cards.column.2.left = 414
+cards.column.2.right = 721

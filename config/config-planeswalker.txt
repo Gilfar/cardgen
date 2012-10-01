@@ -1,0 +1,73 @@
+
+[prompt]
+
+[card generation]
+card.artist.gears = 0
+card.multicolor.gold.frame = 1
+
+[fonts]
+font.text = 24, MPlantin.ttf/MPlantinI.ttf, leading:45
+font.artist = 22, MatrixB.ttf>GaramondB.ttf, centerX:true
+font.copyright = 13, MPlantin.ttf
+font.title = 35, MatrixB.ttf>GaramondB.ttf
+font.type = 30, MatrixB.ttf>GaramondB.ttf
+font.loyalty.starting = 36, MatrixBSmallCaps.ttf>GaramondB.ttf, centerY:true centerX:true
+font.loyalty.change = 24, MPlantinB.ttf, centerY:true centerX:true
+
+[layout]
+title.x = 43
+title.y = 64
+cost.right = 696
+cost.top = 34
+cost.top.dual = 33
+cost.size = 35
+art.top = 0
+art.left = 0
+art.bottom = 1050
+art.right = 736
+type.x = 52
+type.y = 650
+rarity.center.y = 637
+rarity.right = 690
+rarity.height = 45
+rarity.width = 0
+
+text.1.top = 688
+text.1.left = 123
+text.1.bottom = 755
+text.1.right = 685
+
+text.2.top = 785
+text.2.left = 123
+text.2.bottom = 851
+text.2.right = 685
+
+text.3.top = 872
+text.3.left = 123
+text.3.bottom = 953
+text.3.right = 685
+
+text.pt.height.adjust = 7
+
+loyalty.starting.center.y = 979
+loyalty.starting.center.x = 670
+loyalty.starting.width = 114
+
+loyalty.1.center.x = 58
+loyalty.1.center.y = 723
+loyalty.1.center.width = 114
+
+loyalty.2.center.x = 58
+loyalty.2.center.y = 819
+loyalty.2.center.width = 114
+
+loyalty.3.center.x = 58
+loyalty.3.center.y = 913
+loyalty.3.center.width = 114
+
+artist.x = 368;284
+artist.y = 1005
+artist.width = 468
+
+copyright.x = 166
+copyright.y = 1028
