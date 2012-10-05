@@ -15,8 +15,7 @@
 ////////////////////////////////////////////////////////////////////////
 class PlanesWalkerRenderer extends CardRenderer {
 	static private $settingSections;
-	static private $titleToGuild;
-	static private $titleToFrameDir;
+	static private $titleToTransform;
 
 	public function render () {
 		global $config;
@@ -24,6 +23,7 @@ class PlanesWalkerRenderer extends CardRenderer {
 		echo $this->card . '...';
 		$card = $this->card;
 		$settings = $this->getSettings();
+		$frameDir = $this->getFrameDir($card->title, $card->set, $settings);
 		$costColors = Card::getCostColors($card->cost);
 		$white = '255,255,255';
 
@@ -40,17 +40,17 @@ class PlanesWalkerRenderer extends CardRenderer {
 		$borderImage = null;
 		$greyTitleAndTypeOverlay = null;
 		if ($card->isArtefact()) {
-			$bgImage = @imagecreatefrompng('images/planeswalker/cards/Art.png');
+			$bgImage = @imagecreatefrompng("images/planeswalker/$frameDir/cards/Art.png");
 		} else if ($useMulticolorFrame || $card->isDualManaCost()) {
 			// Multicolor frame.
 			if($settings['card.multicolor.gold.frame'])
-				$bgImage = @imagecreatefrompng("images/planeswalker/cards/Gld$costColors.png");
+				$bgImage = @imagecreatefrompng("images/planeswalker/$frameDir/cards/Gld$costColors.png");
 			else
-				$bgImage = @imagecreatefrompng("images/planeswalker/cards/$costColors.png");
+				$bgImage = @imagecreatefrompng("images/planeswalker/$frameDir/cards/$costColors.png");
 			if (!$bgImage) error("Background image not found for color: $costColors");
 		} else {
 			// Mono color frame.
-			$bgImage = @imagecreatefrompng('images/planeswalker/cards/' . $card->color . '.png');
+			$bgImage = @imagecreatefrompng("images/planeswalker/$frameDir/cards/" . $card->color . '.png');
 			if (!$bgImage) error('Background image not found for color "' . $card->color . '"');
 		}
 
@@ -98,24 +98,30 @@ class PlanesWalkerRenderer extends CardRenderer {
 
 		//1
 		$this->loyaltyIcon($matches[2][$text_offset+0], 1, $logaltyImage, $loyalty, $matches[3][$text_offset+0]);
-		imagecopy($canvas, $logaltyImage, $loyalty['x'], $loyalty['y'], 0, 0, $loyalty['w'], $loyalty['h']);
-		imagedestroy($logaltyImage);
+		if($logaltyImage != null) {
+			imagecopy($canvas, $logaltyImage, $loyalty['x'], $loyalty['y'], 0, 0, $loyalty['w'], $loyalty['h']);
+			imagedestroy($logaltyImage);
+		}
 
 		$this->drawText($canvas, $settings['loyalty.1.center.x'], $settings['loyalty.1.center.y'], $settings['loyalty.1.center.width'], ((!empty($matches[2][$text_offset+0]))?preg_replace('/([+|-])/', '{\\1}', $matches[2][$text_offset+0]):"\037").$matches[3][$text_offset+0], $this->font('loyalty.change', 'color:'.$white));
 		$this->drawLegalAndFlavorText($canvas, $settings['text.1.top'], $settings['text.1.left'], $settings['text.1.bottom'], $settings['text.1.right'], $matches[4][$text_offset+0], null, $this->font('text'), 0);
 
 		//2
 		$this->loyaltyIcon($matches[2][$text_offset+1], 2,  $logaltyImage, $loyalty, $matches[3][$text_offset+1]);
-		imagecopy($canvas, $logaltyImage, $loyalty['x'], $loyalty['y'], 0, 0, $loyalty['w'], $loyalty['h']);
-		imagedestroy($logaltyImage);
+		if($logaltyImage != null) {
+			imagecopy($canvas, $logaltyImage, $loyalty['x'], $loyalty['y'], 0, 0, $loyalty['w'], $loyalty['h']);
+			imagedestroy($logaltyImage);
+		}
 
 		$this->drawText($canvas, $settings['loyalty.2.center.x'], $settings['loyalty.2.center.y'], $settings['loyalty.2.center.width'], ((!empty($matches[2][$text_offset+1]))?preg_replace('/([+|-])/', '{\\1}', $matches[2][$text_offset+1]):"\037").$matches[3][$text_offset+1], $this->font('loyalty.change', 'color:'.$white));
 		$this->drawLegalAndFlavorText($canvas, $settings['text.2.top'], $settings['text.2.left'], $settings['text.2.bottom'], $settings['text.2.right'], $matches[4][$text_offset+1], null, $this->font('text'), 0);
 
 		//3
 		$this->loyaltyIcon($matches[2][$text_offset+2], 3,  $logaltyImage, $loyalty, $matches[3][$text_offset+2]);
-		imagecopy($canvas, $logaltyImage, $loyalty['x'], $loyalty['y'], 0, 0, $loyalty['w'], $loyalty['h']);
-		imagedestroy($logaltyImage);
+		if($logaltyImage != null) {
+			imagecopy($canvas, $logaltyImage, $loyalty['x'], $loyalty['y'], 0, 0, $loyalty['w'], $loyalty['h']);
+			imagedestroy($logaltyImage);
+		}
 
 		$this->drawText($canvas, $settings['loyalty.3.center.x'], $settings['loyalty.3.center.y'], $settings['loyalty.3.center.width'], ((!empty($matches[2][$text_offset+2]))?preg_replace('/([+|-])/', '{\\1}', $matches[2][$text_offset+2]):"\037").$matches[3][$text_offset+2], $this->font('loyalty.change', 'color:'.$white));
 		$this->drawLegalAndFlavorText($canvas, $settings['text.3.top'], $settings['text.3.left'], $settings['text.3.bottom'], $settings['text.3.right'], $matches[4][$text_offset+2], null, $this->font('text'), 10);
@@ -185,7 +191,7 @@ class PlanesWalkerRenderer extends CardRenderer {
 					$loyalty['y'] = 691;
 					break;
 				case 2:
-					$loyalty['y'] = 789;
+					$loyalty['y'] = 787;
 					break;
 				case 3:
 					$loyalty['y'] = 880;
@@ -198,10 +204,20 @@ class PlanesWalkerRenderer extends CardRenderer {
 	}
 
 	public function getSettings () {
-		global $rendererSettings;
-		return $rendererSettings['config/config-planeswalker.txt'];
+		global $rendererSettings, $rendererSections;
+		$settings = $rendererSettings['config/config-planeswalker.txt'];
+		$frameDir = $this->getFrameDir($this->card->title, $this->card->set, $settings);
+		$settings = array_merge($settings, $rendererSections['config/config-planeswalker.txt']['fonts - ' . $frameDir]);
+		$settings = array_merge($settings, $rendererSections['config/config-planeswalker.txt']['layout - ' . $frameDir]);
+		return $settings;
 	}
 
+	private function getFrameDir ($title, $set, $settings) {
+		if (!PlanesWalkerRenderer::$titleToTransform) PlanesWalkerRenderer::$titleToTransform = csvToArray('data/eighth/titleToTransform.csv');
+		$frameDir = 'transform-' . @PlanesWalkerRenderer::$titleToTransform[(string)strtolower($title)];
+		if (!$frameDir || $frameDir == 'transform-') $frameDir = "regular";
+		return $frameDir;
+	}
 }
 
 ?>

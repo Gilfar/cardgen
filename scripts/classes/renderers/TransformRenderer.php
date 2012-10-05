@@ -42,7 +42,7 @@ class TransformRenderer extends CardRenderer {
 		$card1->legal = $cards[0];
 		$card1->flavor = $flavor1;
 
-		if (preg_match("/(.*?)\n(.*?)\n(.*?)\n(.*)/s", $cards[1], $matches)) {
+		if (preg_match("/(.*?)\n(.*?)\n(.*?)\n(.*)/s", $cards[1], $matches) && !$card->isPlaneswalker()) {
 			$title2 = $matches[1];
 			$type2 = $matches[2];
 			$pt2 = $matches[3];
@@ -70,6 +70,8 @@ class TransformRenderer extends CardRenderer {
 		$card2->legal = $legal2;
 		$card2->flavor = $flavor2;
 		$card2->cost = "";
+		if(TransformRenderer::$titleToTransform[(string)strtolower($card1->title)][1] != '')
+			$card1->color = TransformRenderer::$titleToTransform[(string)strtolower($card1->title)][1];
 		if(TransformRenderer::$titleToTransform[(string)strtolower($card2->title)][1] != '')
 			$card2->color = TransformRenderer::$titleToTransform[(string)strtolower($card2->title)][1];
 		if($this->version == "day") {

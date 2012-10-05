@@ -56,6 +56,10 @@ class Card {
 		return (stripos($this->englishType, 'Eldrazi') !== false);
 	}
 
+	public function isPlaneswalker () {
+		return (stripos($this->englishType, 'Planeswalker') !== false);
+	}
+
 	public function getCostSymbols () {
 		$cost = $this->cost;
 

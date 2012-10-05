@@ -9,12 +9,33 @@ card.multicolor.gold.frame = 1
 font.text = 24, MPlantin.ttf/MPlantinI.ttf, leading:45
 font.artist = 22, MatrixB.ttf>GaramondB.ttf, centerX:true
 font.copyright = 13, MPlantin.ttf
-font.title = 35, MatrixB.ttf>GaramondB.ttf
-font.type = 30, MatrixB.ttf>GaramondB.ttf
 font.loyalty.starting = 36, MatrixBSmallCaps.ttf>GaramondB.ttf, centerY:true centerX:true
 font.loyalty.change = 24, MPlantinB.ttf, centerY:true centerX:true
 
-[layout]
+[fonts - regular]
+font.title = 35, MatrixB.ttf>GaramondB.ttf
+font.type = 30, MatrixB.ttf>GaramondB.ttf
+
+[fonts - transform-day]
+font.title = 35, MatrixB.ttf>GaramondB.ttf
+font.type = 30, MatrixB.ttf>GaramondB.ttf
+
+[fonts - transform-night]
+font.title = 35, MatrixB.ttf>GaramondB.ttf, color:255,255,255
+font.type = 30, MatrixB.ttf>GaramondB.ttf, color:255,255,255
+
+[layout - transform-day]
+title.x = 105
+pt.transform.center.x = 610
+pt.transform.center.y = 935
+pt.transform.width = 80
+
+[layout - transform-night]
+title.x = 105
+type.x = 87
+type.art.x = 52
+
+[layout - regular]
 title.x = 43
 title.y = 64
 cost.right = 696

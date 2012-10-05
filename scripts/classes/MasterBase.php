@@ -75,7 +75,7 @@ class MasterBase {
 				$colors = Card::getCostColors($cost2);
 				$color .= strlen($colors) == 1 ? $colors : 'Gld';
 			}
-			if (strpos($title, "/") !== FALSE && (($p != "" && $t != "") || $set == 'DKA')) {
+			if (strpos($title, "/") !== FALSE && (($p != "" && $t != "") || $set == 'DKA' || $set == 'ISD')) {
 				// flip cards fixes
 				$title1 = substr($title, 0, strpos($title, '/'));
 				$title2 = substr($title, strpos($title, '/') + 1);
@@ -91,10 +91,14 @@ class MasterBase {
 					$pt = substr($t, strpos($t, '|') + 1);
 					$t = $t1;
 				} else if(strpos($p, '|') !== FALSE) {
-					$p1 = substr($p, 0, strpos($t, '|'));
-					$pt = substr($p, strpos($t, '|') + 1) . '/' . $t;
-					$p = $t1;
+					$p1 = substr($p, 0, strpos($p, '|'));
+					$pt = substr($p, strpos($p, '|') + 1) . '/' . $t;
+					$p = $p1;
 					$t = '';
+					if($pt == '#/') { //maybe need something more generic for dual planeswalkers later
+						$pt = '';
+						$p .= '#';
+					}
 				}
 
 				$insertPosition = strpos($legal, "//");

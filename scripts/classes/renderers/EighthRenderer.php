@@ -26,7 +26,7 @@ class EighthRenderer extends CardRenderer {
 		echo $this->card . '...';
 		$card = $this->card;
 		$settings = $this->getSettings();
-		$frameDir = $this->getFrameDir($card->title, $card->set,$settings);
+		$frameDir = $this->getFrameDir($card->title, $card->set, $settings);
 		$costColors = Card::getCostColors($card->cost);
 
 		$useMulticolorFrame = (strlen($costColors) > 1 && strpos($settings['card.multicolor.frames'], strval(strlen($costColors))) !== false) || ($card->isDualManaCost() && (strpos($settings['card.multicolor.frames'], strval(strlen($costColors))) !== false || strlen($costColors) == 2));
