@@ -6,6 +6,7 @@ output.clean = 1
 card.set.random = 0
 card.flavor.random = 0
 card.larger.regular.symbols = 0
+card.old.tap.symbol = 1
 card.artist.and.copyright = 1
 card.copyright = "&#8482; & &#169; 1993-2012 Wizards of the Coast LLC"
 card.reminder.text = 1

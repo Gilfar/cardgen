@@ -336,8 +336,12 @@ abstract class Renderer {
 			imagecopy($image, $sliceImage, 0, 0, 0, 0, $srcWidth, $srcHeight);
 			imagedestroy($sliceImage);
 		}
-		else
+		else {
+			if($symbol == 'T' && $this instanceof PreEighthRenderer && $config['card.old.tap.symbol']) {
+				$symbol .= "_pre";
+			}
 			list($image, $srcWidth, $srcHeight) = getPNG("images/symbols/$symbol.png", "Symbol image not found: $symbol");
+		}
 		$width = $height * ($srcWidth / $srcHeight);
 		if ($canvas) {
 			if ($shadow) {
