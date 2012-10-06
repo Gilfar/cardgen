@@ -223,8 +223,12 @@ class EighthRenderer extends CardRenderer {
 			}
 		} else {
 			// Legal and flavor text.
-			$heightAdjust = $card->pt ? $settings['text.pt.height.adjust'] : 0;
-			$this->drawLegalAndFlavorText($canvas, $settings['text.top'], $settings['text.left'], $settings['text.bottom'], $settings['text.right'], $card->legal, $card->flavor, $this->font('text'), $heightAdjust);
+			if(strlen($card->legal) < 40 && strpos($card->legal, "\n") === FALSE && $card->flavor == '')
+				$this->drawText($canvas, ($settings['text.right'] + $settings['text.left']) / 2, ($settings['text.top'] + $settings['text.bottom']) / 2, null, $card->legal, $this->font('text', 'centerY:true centerX:true'));
+			else {
+				$heightAdjust = $card->pt ? $settings['text.pt.height.adjust'] : 0;
+				$this->drawLegalAndFlavorText($canvas, $settings['text.top'], $settings['text.left'], $settings['text.bottom'], $settings['text.right'], $card->legal, $card->flavor, $this->font('text'), $heightAdjust);
+			}
 		}
 
 		// Artist and copyright.
