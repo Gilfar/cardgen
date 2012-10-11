@@ -14,6 +14,8 @@
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
 ////////////////////////////////////////////////////////////////////////
 class PreEighthRenderer extends CardRenderer {
+	static private $titleToTombstone;
+
 	public function render () {
 		global $config;
 
@@ -83,7 +85,7 @@ class PreEighthRenderer extends CardRenderer {
 
 		// Tombstone sign.
 		if ($settings['card.tombstone']) {
-			if (strpos($card->legal, 'Flashback') !=false || strpos($card->type, 'Incarnation') !=false || $card->title == 'Riftstone Portal' || $card->title == 'Ichorid') {
+			if ($this->getTombstone($card->title)) {
 				list($image, $width, $height) = getPNG('images/preEighth/tombstone.png', 'Tombstone image not found.');
 				imagecopy($canvas, $image, $settings["tombstone.left"], $settings["tombstone.top"], 0, 0, $width, $height);
 				imagedestroy($image);
@@ -148,6 +150,11 @@ class PreEighthRenderer extends CardRenderer {
 	public function getSettings () {
 		global $rendererSettings;
 		return $rendererSettings['config/config-preEighth.txt'];
+	}
+
+	private function getTombstone ($title) {
+		if (!PreEighthRenderer::$titleToTombstone) PreEighthRenderer::$titleToTombstone = csvToArray('data/preEighth/titleToTombstone.csv');
+		return array_key_exists((string)strtolower($title), PreEighthRenderer::$titleToTombstone);
 	}
 }
 

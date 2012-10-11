@@ -17,7 +17,6 @@ Ancestral Recall
 Balance
 Black Lotus
 Brainstorm
-Burning Wish
 Channel
 Demonic Consultation
 Demonic Tutor
@@ -183,6 +182,7 @@ Innistrad
 Dark Ascension
 Avacyn Restored
 Magic 2013
+Return to Ravnica
 
 Legacy (T1.5)
 BANNED
@@ -374,6 +374,7 @@ Innistrad
 Dark Ascension
 Avacyn Restored
 Magic 2013
+Return to Ravnica
 
 Extended (T1.x)
 BANNED
@@ -383,10 +384,6 @@ Ponder
 Preordain
 Stoneforge Mystic
 SETS
-Shards of Alara
-Conflux
-Alara Reborn
-Magic 2010
 Zendikar
 Worldwake
 Rise of the Eldrazi
@@ -399,17 +396,15 @@ Innistrad
 Dark Ascension
 Avacyn Restored
 Magic 2013
+Return to Ravnica
 
 Standard (T2)
 SETS
-Scars of Mirrodin
-Mirrodin Besieged
-New Phyrexia
-Magic 2012
 Innistrad
 Dark Ascension
 Avacyn Restored
 Magic 2013
+Return to Ravnica
 
 Modern
 BANNED
@@ -480,3 +475,4 @@ Innistrad
 Dark Ascension
 Avacyn Restored
 Magic 2013
+Return to Ravnica

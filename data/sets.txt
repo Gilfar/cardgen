@@ -46,6 +46,7 @@ V09 From the Vault: Exiled
 DRB,FVD From the Vault: Dragons
 V10 From the Vault: Relics
 V11 From the Vault: Legends
+V12 From the Vault: Realms
 H09 Premium Deck Series: Slivers
 PD2 Premium Deck Series: Fire and Lightning
 PD3 Premium Deck Series: Graveborn
@@ -58,6 +59,7 @@ DDF Duel Decks: Elspeth vs. Tezzeret
 DDG Duel Decks: Knights vs. Dragons
 DDH Duel Decks: Ajani vs. Nicol Bolas
 DDI Duel Decks: Venser vs. Koth
+DDJ Duel Decks: Izzet vs. Golgari
 SOR The Sorcerer's Apprentice
 ARC Archenemy
 DPA Duels of the Planeswalker
@@ -145,3 +147,4 @@ ISD Innistrad
 DKA Dark Ascension
 AVR Avacyn Restored
 M13 Magic 2013
+RTR Return to Ravnica
