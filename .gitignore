@@ -1,2 +1,7 @@
 *.bak
 cards.csv
+/decks
+/fonts
+/images
+/output
+/php

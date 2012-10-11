@@ -45,7 +45,7 @@ class Card {
 	}
 
 	public function isLand () {
-		return strtolower($this->color) == 'lnd';
+		return (strtolower($this->color) == 'lnd' || stripos($this->englishType, 'Land') !== false);
 	}
 
 	public function isArtefact () {

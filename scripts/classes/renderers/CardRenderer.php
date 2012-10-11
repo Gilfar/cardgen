@@ -86,10 +86,16 @@ abstract class CardRenderer extends Renderer {
 				list($image, $srcWidth, $srcHeight) = getPNG('images/preEighth/rarity/' . $abbrev . '_' . $rarity . '.png');
 				if ($image)
 					break;
+				list($image, $srcWidth, $srcHeight) = getGIF('images/preEighth/rarity/' . $abbrev . '_' . $rarity . '.gif');
+				if ($image)
+					break;
 			}
 		if (!$image && $fallback)
 			foreach ($this->setDB->getAbbrevs($set) as $abbrev) {
 				list($image, $srcWidth, $srcHeight) = getPNG('images/eighth/rarity/' . $abbrev . '_' . $rarity . '.png');
+				if ($image)
+					break;
+				list($image, $srcWidth, $srcHeight) = getGIF('images/eighth/rarity/' . $abbrev . '_' . $rarity . '.gif');
 				if ($image)
 					break;
 			}

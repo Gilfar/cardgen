@@ -197,7 +197,7 @@ class EighthRenderer extends CardRenderer {
 			imagedestroy($image);
 		}
 
-		if ($card->isBasicLand()) {
+		if ($card->isBasicLand() || ($card->isLand() && $card->legal == '' && $card->flavor == '') ) {
 			// Basic land symbol instead of legal text.
 			list($image, $width, $height) = getPNG("images/symbols/land/$landColors.png", "Basic land image not found for: images/symbols/land/$landColors.png");
 			imagecopy($canvas, $image, 373 - ($width / 2), 660, 0, 0, $width, $height);
