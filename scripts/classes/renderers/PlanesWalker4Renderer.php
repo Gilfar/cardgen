@@ -40,17 +40,17 @@ class PlanesWalker4Renderer extends CardRenderer {
 		$borderImage = null;
 		$greyTitleAndTypeOverlay = null;
 		if ($card->isArtefact()) {
-			$bgImage = @imagecreatefrompng('images/planeswalker/cards/Art.png');
+			$bgImage = @imagecreatefrompng('images/planeswalker/regular/cards/Art4.png');
 		} else if ($useMulticolorFrame || $card->isDualManaCost()) {
 			// Multicolor frame.
 			if($settings['card.multicolor.gold.frame'])
-				$bgImage = @imagecreatefrompng("images/planeswalker/cards/Gld$costColors.png");
+				$bgImage = @imagecreatefrompng("images/planeswalker/regular/cards/Gld$costColors4.png");
 			else
-				$bgImage = @imagecreatefrompng("images/planeswalker/cards/$costColors.png");
+				$bgImage = @imagecreatefrompng("images/planeswalker/regular/cards/$costColors4.png");
 			if (!$bgImage) error("Background image not found for color: $costColors");
 		} else {
 			// Mono color frame.
-			$bgImage = @imagecreatefrompng('images/planeswalker/cards/' . $card->color . '4.png');
+			$bgImage = @imagecreatefrompng('images/planeswalker/regular/cards/' . $card->color . '4.png');
 			if (!$bgImage) error('Background image not found for color "' . $card->color . '"');
 		}
 
