@@ -1,94 +1,178 @@
-Tazeem,REL,Art,Plane — Zendikar,,,R,,"Creatures can`t block.
-Whenever you roll {C}, draw a card for each land you control.",,Vincent Proce,
 Academy at Tolaria West,HOP,Art,Plane — Dominaria,,,C,,"At the beginning of your end step, if you have no cards in hand, draw seven cards.
-Whenever you roll {C}, discard your hand.",,James Paick,
+Whenever you roll {C}, discard your hand.",,James Paick,1\40
 Agyrem,HOP,Art,Plane — Ravnica,,,C,,"Whenever a white creature is put into a graveyard from the battlefield, return it to the battlefield under its owner`s control at the beginning of the next end step.
 Whenever a nonwhite creature is put into a graveyard from the battlefield, return it to its owner`s hand at the beginning of the next end step.
-Whenever you roll {C}, creatures can`t attack you until a player planeswalks.",,Todd Lockwood,
+Whenever you roll {C}, creatures can`t attack you until a player planeswalks.",,Todd Lockwood,3\40
 Bant,HOP,Art,Plane — Alara,,,C,,"All creatures have exalted. #(Whenever a creature attacks alone, it gets +1/+1 until end of turn for each instance of exalted among permanents its controller controls.)#
-Whenever you roll {C}, put a divinity counter on target green, white, or blue creature. That creature is indestructible as long as it has a divinity counter on it.",,Michael Komarck,
+Whenever you roll {C}, put a divinity counter on target green, white, or blue creature. That creature is indestructible as long as it has a divinity counter on it.",,Michael Komarck,4\40
 Cliffside Market,HOP,Art,Plane — Mercadia,,,C,,"When you planeswalk to Cliffside Market or at the beginning of your upkeep, you may exchange life totals with target player.
-Whenever you roll {C}, exchange control of two target permanents that share a card type.",,Matt Stewart,
+Whenever you roll {C}, exchange control of two target permanents that share a card type.",,Matt Stewart,5\40
 Eloren Wilds,HOP,Art,Plane — Shandalar,,,C,,"Whenever a player taps a permanent for mana, that player adds one mana to his or her mana pool of any type that permanent produced.
-Whenever you roll {C}, target player can`t cast spells until a player planeswalks.",,Darrell Riche,
+Whenever you roll {C}, target player can`t cast spells until a player planeswalks.",,Darrell Riche,7\40
 Feeding Grounds,HOP,Art,Plane — Muraganda,,,C,,"Red spells cost {1} less to cast.
 Green spells cost {1} less to cast.
-Whenever you roll {C}, put X +1/+1 counters on target creature, where X is that creature`s converted mana cost.",,Matt Stewart,
+Whenever you roll {C}, put X +1/+1 counters on target creature, where X is that creature`s converted mana cost.",,Matt Stewart,9\40
 Fields of Summer,HOP,Art,Plane — Moag,,,C,,"Whenever a player casts a spell, that player may gain 2 life.
-Whenever you roll {C}, you may gain 10 life.",,Daniel Ljunggren,
+Whenever you roll {C}, you may gain 10 life.",,Daniel Ljunggren,10\40
 Glimmervoid Basin,HOP,Art,Plane — Mirrodin,,,C,,"Whenever a player casts an instant or sorcery spell with a single target, he or she copies that spell for each other spell, permanent, card not on the battlefield, and/or player the spell could target. Each copy targets a different one of them.
-Whenever you roll {C}, choose target creature. Each player except that creature`s controller puts a token that`s a copy of that creature onto the battlefield.",,Lars Grant-West,
+Whenever you roll {C}, choose target creature. Each player except that creature`s controller puts a token that`s a copy of that creature onto the battlefield.",,Lars Grant-West,12\40
 Goldmeadow,HOP,Art,Plane — Lorwyn,,,C,,"Whenever a land enters the battlefield, that land`s controller puts three 0/1 white Goat creature tokens onto the battlefield.
-Whenever you roll {C}, put a 0/1 white Goat creature token onto the battlefield.",,Warren Mahy,
+Whenever you roll {C}, put a 0/1 white Goat creature token onto the battlefield.",,Warren Mahy,13\40
 Grixis,HOP,Art,Plane — Alara,,,C,,"Blue, black, and/or red creature cards in your graveyard have unearth. The unearth cost is equal to the card`s mana cost. #(Pay the card`s mana cost: Return it to the battlefield. The creature gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)#
-Whenever you roll {C}, put target creature card in a graveyard onto the battlefield under your control.",,Nils Hamm,
+Whenever you roll {C}, put target creature card in a graveyard onto the battlefield under your control.",,Nils Hamm,15\40
 Immersturm,HOP,Art,Plane — Valla,,,C,,"Whenever a creature enters the battlefield, that creature`s controller may have it deal damage equal to its power to target creature or player of his or her choice.
-Whenever you roll {C}, exile target creature, then return it to the battlefield under its owner`s control.",,Raymond Swanland,
+Whenever you roll {C}, exile target creature, then return it to the battlefield under its owner`s control.",,Raymond Swanland,17\40
 Isle of Vesuva,HOP,Art,Plane — Dominaria,,,C,,"Whenever a nontoken creature enters the battlefield, its controller puts a token onto the battlefield that`s a copy of that creature.
-Whenever you roll {C}, destroy target creature and all other creatures with the same name as that creature.",,Zoltan Boros & Gabor Szikszai,
+Whenever you roll {C}, destroy target creature and all other creatures with the same name as that creature.",,Zoltan Boros & Gabor Szikszai,18\40
 Izzet Steam Maze,HOP,Art,Plane — Ravnica,,,C,,"Whenever a player casts an instant or sorcery spell, that player copies it. The player may choose new targets for the copy.
-Whenever you roll {C}, instant and sorcery spells you cast this turn cost {3} less to cast.",,Franz Vohwinkel,
+Whenever you roll {C}, instant and sorcery spells you cast this turn cost {3} less to cast.",,Franz Vohwinkel,19\40
 Krosa,HOP,Art,Plane — Dominaria,,,C,,"All creatures get +2/+2.
-Whenever you roll {C}, you may add {W}{U}{B}{R}{G} to your mana pool.",,Steven Belledin,
+Whenever you roll {C}, you may add {W}{U}{B}{R}{G} to your mana pool.",,Steven Belledin,20\40
 Lethe Lake,HOP,Art,Plane — Arkhos,,,C,,"At the beginning of your upkeep, put the top ten cards of your library into your graveyard.
-Whenever you roll {C}, target player puts the top ten cards of his or her library into his or her graveyard.",,Chris J. Anderson,
+Whenever you roll {C}, target player puts the top ten cards of his or her library into his or her graveyard.",,Chris J. Anderson,21\40
 Llanowar,HOP,Art,Plane — Dominaria,,,C,,"All creatures have “Tap: Add {G}{G} to your mana pool.”
-Whenever you roll {C}, untap all creatures you control.",,Kev Walker,
+Whenever you roll {C}, untap all creatures you control.",,Kev Walker,22\40
 Minamo,HOP,Art,Plane — Kamigawa,,,C,,"Whenever a player casts a spell, that player may draw a card.
-Whenever you roll {C}, each player may return a blue card from his or her graveyard to his or her hand.",,Charles Urbach,
+Whenever you roll {C}, each player may return a blue card from his or her graveyard to his or her hand.",,Charles Urbach,24\40
 Murasa,HOP,Art,Plane — Zendikar,,,C,,"Whenever a nontoken creature enters the battlefield, its controller may search his or her library for a basic land card, put it onto the battlefield tapped, then shuffle his or her library.
-Whenever you roll {C}, target land becomes a 4/4 creature that`s still a land.",,Jung Park,
+Whenever you roll {C}, target land becomes a 4/4 creature that`s still a land.",,Jung Park,25\40
 Naar Isle,HOP,Art,Plane — Wildfire,,,C,,"At the beginning of your upkeep, put a flame counter on Naar Isle, then Naar Isle deals damage to you equal to the number of flame counters on it.
-Whenever you roll {C}, Naar Isle deals 3 damage to target player.",,Mark Zug,
+Whenever you roll {C}, Naar Isle deals 3 damage to target player.",,Mark Zug,26\40
 Naya,HOP,Art,Plane — Alara,,,C,,"You may play any number of additional lands on each of your turns.
-Whenever you roll {C}, target red, green, or white creature you control gets +1/+1 until end of turn for each land you control.",,Zoltan Boros & Gabor Szikszai,
+Whenever you roll {C}, target red, green, or white creature you control gets +1/+1 until end of turn for each land you control.",,Zoltan Boros & Gabor Szikszai,27\40
 Otaria,HOP,Art,Plane — Dominaria,,,C,,"Instant and sorcery cards in graveyards have flashback. The flashback cost is equal to the card`s mana cost. #(Its owner may cast the card from his or her graveyard for its mana cost. Then he or she exiles it.)#
-Whenever you roll {C}, take an extra turn after this one.",,Charles Urbach,
+Whenever you roll {C}, take an extra turn after this one.",,Charles Urbach,28\40
 Panopticon,HOP,Art,Plane — Mirrodin,,,C,,"When you planeswalk to Panopticon, draw a card.
 At the beginning of your draw step, draw an additional card.
-Whenever you roll {C}, draw a card.",,John Avon,
+Whenever you roll {C}, draw a card.",,John Avon,29\40
 Pools of Becoming,HOP,Art,Plane — Bolas’s Meditation Realm,,,C,,"At the beginning of your end step, put the cards in your hand on the bottom of your library in any order, then draw that many cards.
-Whenever you roll {C}, reveal the top three cards of your planar deck. Each of the revealed cards` {C} abilities triggers. Then put the revealed cards on the bottom of your planar deck in any order.",,Jason Chan,
+Whenever you roll {C}, reveal the top three cards of your planar deck. Each of the revealed cards` {C} abilities triggers. Then put the revealed cards on the bottom of your planar deck in any order.",,Jason Chan,30\40
 Raven's Run,HOP,Art,Plane — Shadowmoor,,,C,,"All creatures have wither. #(They deal damage to creatures in the form of -1/-1 counters.)#
-Whenever you roll {C}, put a -1/-1 counter on target creature, two -1/-1 counters on another target creature, and three -1/-1 counters on a third target creature.",,Omar Rayyan,
+Whenever you roll {C}, put a -1/-1 counter on target creature, two -1/-1 counters on another target creature, and three -1/-1 counters on a third target creature.",,Omar Rayyan,31\40
 Sanctum of Serra,HOP,Art,Plane — Serra’s Realm,,,C,,"When you planeswalk away from Sanctum of Serra, destroy all nonland permanents.
-Whenever you roll {C}, you may have your life total become 20.",,Rob Alexander,
+Whenever you roll {C}, you may have your life total become 20.",,Rob Alexander,32\40
 Sea of Sand,HOP,Art,Plane — Rabiah,,,C,,"Players reveal each card they draw.
 Whenever a player draws a land card, that player gains 3 life.
 Whenever a player draws a nonland card, that player loses 3 life.
-Whenever you roll {C}, put target permanent on top of its owner`s library.",,Jim Nelson,
+Whenever you roll {C}, put target permanent on top of its owner`s library.",,Jim Nelson,33\40
 Shiv,HOP,Art,Plane — Dominaria,,,C,,"All creatures have “{R}: This creature gets +1/+0 until end of turn.”
-Whenever you roll {C}, put a 5/5 red Dragon creature token with flying onto the battlefield.",,rk post,
+Whenever you roll {C}, put a 5/5 red Dragon creature token with flying onto the battlefield.",,rk post,34\40
 Skybreen,HOP,Art,Plane — Kaldheim,,,C,,"Players play with the top card of their libraries revealed.
 Spells that share a card type with the top card of a library can`t be cast.
-Whenever you roll {C}, target player loses life equal to the number of cards in his or her hand.",,Wayne England,
+Whenever you roll {C}, target player loses life equal to the number of cards in his or her hand.",,Wayne England,35\40
 Sokenzan,HOP,Art,Plane — Kamigawa,,,C,,"All creatures get +1/+1 and have haste.
-Whenever you roll {C}, untap all creatures that attacked this turn. After this main phase, there is an additional combat phase followed by an additional main phase.",,Brian Snoddy,
+Whenever you roll {C}, untap all creatures that attacked this turn. After this main phase, there is an additional combat phase followed by an additional main phase.",,Brian Snoddy,36\40
 Stronghold Furnace,HOP,Art,Plane — Rath,,,C,,"If a source would deal damage to a creature or player, it deals double that damage to that creature or player instead.
-Whenever you roll {C}, Stronghold Furnace deals 1 damage to target creature or player.",,Jim Pavelec,
+Whenever you roll {C}, Stronghold Furnace deals 1 damage to target creature or player.",,Jim Pavelec,37\40
 The AEther Flues,HOP,Art,Plane — Iquatana,,,C,,"When you planeswalk to The Æther Flues or at the beginning of your upkeep, you may sacrifice a creature. If you do, reveal cards from the top of your library until you reveal a creature card, put that card onto the battlefield, then shuffle all other cards revealed this way into your library.
-Whenever you roll {C}, you may put a creature card from your hand onto the battlefield.",,Jason A. Engle,
+Whenever you roll {C}, you may put a creature card from your hand onto the battlefield.",,Jason A. Engle,2\40
 The Dark Barony,HOP,Art,Plane — Ulgrotha,,,C,,"Whenever a nonblack card is put into a player`s graveyard from anywhere, that player loses 1 life.
-Whenever you roll {C}, each opponent discards a card.",,Pete Venters,
+Whenever you roll {C}, each opponent discards a card.",,Pete Venters,6\40
 The Eon Fog,HOP,Art,Plane — Equilor,,,C,,"Players skip their untap steps.
-Whenever you roll {C}, untap all permanents you control.",,Jaime Jones,
+Whenever you roll {C}, untap all permanents you control.",,Jaime Jones,8\40
 The Fourth Sphere,HOP,Art,Plane — Phyrexia,,,C,,"At the beginning of your upkeep, sacrifice a nonblack creature.
-Whenever you roll {C}, put a 2/2 black Zombie creature token onto the battlefield.",,Dave Kendall,
+Whenever you roll {C}, put a 2/2 black Zombie creature token onto the battlefield.",,Dave Kendall,11\40
 The Great Forest,HOP,Art,Plane — Lorwyn,,,C,,"Each creature assigns combat damage equal to its toughness rather than its power.
-Whenever you roll {C}, creatures you control get +0/+2 and gain trample until end of turn.",,Howard Lyon,
+Whenever you roll {C}, creatures you control get +0/+2 and gain trample until end of turn.",,Howard Lyon,14\40
 The Hippodrome,HOP,Art,Plane — Segovia,,,C,,"All creatures get -5/-0.
-Whenever you roll {C}, you may destroy target creature if its power is 0 or less.",,Steve Argyle,
+Whenever you roll {C}, you may destroy target creature if its power is 0 or less.",,Steve Argyle,16\40
 The Maelstrom,HOP,Art,Plane — Alara,,,C,,"When you planeswalk to The Maelstrom or at the beginning of your upkeep, you may reveal the top card of your library. If it`s a permanent card, you may put it onto the battlefield. Otherwise, put that card on the bottom of your library.
-Whenever you roll {C}, return target permanent card from your graveyard to the battlefield.",,James Paick,
+Whenever you roll {C}, return target permanent card from your graveyard to the battlefield.",,James Paick,23\40
 Turri Island,HOP,Art,Plane — Ir,,,C,,"Creature spells cost {2} less to cast.
-Whenever you roll {C}, reveal the top three cards of your library. Put all creature cards revealed this way into your hand and the rest into your graveyard.",,Raymond Swanland,
+Whenever you roll {C}, reveal the top three cards of your library. Put all creature cards revealed this way into your hand and the rest into your graveyard.",,Raymond Swanland,38\40
 Undercity Reaches,HOP,Art,Plane — Ravnica,,,C,,"Whenever a creature deals combat damage to a player, its controller may draw a card.
-Whenever you roll {C}, you have no maximum hand size for the rest of the game.",,Stephan Martiniere,
+Whenever you roll {C}, you have no maximum hand size for the rest of the game.",,Stephan Martiniere,39\40
 Velis Vel,HOP,Art,Plane — Lorwyn,,,C,,"Each creature gets +1/+1 for each other creature on the battlefield that shares at least one creature type with it. #(For example, if two Elemental Shamans and an Elemental Spirit are on the battlefield, each gets +2/+2.)#
-Whenever you roll {C}, target creature gains all creature types until end of turn.",,Terese Nielsen,
+Whenever you roll {C}, target creature gains all creature types until end of turn.",,Terese Nielsen,40\40
+Tazeem,REL,Art,Plane — Zendikar,,,R,,"Creatures can`t block.
+Whenever you roll {C}, draw a card for each land you control.",,Vincent Proce,41 DCI
 Celestine Reef,PRE,Art,Plane — Luvion,,,C,,"Creatures without flying or islandwalk can`t attack.
-Whenever you roll {C}, until a player planeswalks, you can`t lose the game and your opponents can`t win the game.",,Donato Giancola,
+Whenever you roll {C}, until a player planeswalks, you can`t lose the game and your opponents can`t win the game.",,Donato Giancola,42 DCI
 Horizon Boughs,GTW,Art,Plane — Pyrulea,,,C,,"All permanents untap during each player`s untap step.
-Whenever you roll {C}, you may search your library for up to three basic land cards, put them onto the battlefield tapped, then shuffle your library.",,Jean-Sébastien Rossbach,
-Tember City,ARC,Art,Plane — Kinshala,,,C,,"Whenevr a player taps a land for mana, Tember City deals 1 damage to that player.
-Whenever you roll {C}, each other player sacrifices a nonland permanent.",,Ben Thompson,
+Whenever you roll {C}, you may search your library for up to three basic land cards, put them onto the battlefield tapped, then shuffle your library.",,Jean-Sébastien Rossbach,43 DCI
+Mirrored Depths,GTW,Art,Plane - Karsus,,,P,,"Whenever a player casts a spell, that player flips a coin. If he or she loses the flip, counter that spell.
+Whenever you roll {C}, target player reveals the top card of his or her library. If it's a nonland card, you may cast it without paying its mana cost.",,Chippy,44 DCI
+Tember City,GTW,Art,Plane — Kinshala,,,C,,"Whenevr a player taps a land for mana, Tember City deals 1 damage to that player.
+Whenever you roll {C}, each other player sacrifices a nonland permanent.",,Ben Thompson,45 DCI
+Chaotic AEther,PC2,Art,Phenomenon,,,C,,"When you encounter Chaotic AEther, each blank roll of the planar die is a chaos roll until a player planeswalks away from a plane. (Then planeswalk away from this phenomenon.)",,Dan Scott,1\40
+Interplanar Tunnel,PC2,Art,Phenomenon,,,C,,"When you encounter Interplanar Tunnel, reveal cards from the top of your planar deck until you reveal five plane cards. Put a plane card from among them on top of your planar deck, then put the rest of the revealed cards on the bottom in a random order. (Then planeswalk away from this phenomenon.)",,Chuck Lukacs,2\40
+Morphic Tide,PC2,Art,Phenomenon,,,C,,"When you encounter Morphic Tide, each player shuffles all permanents he or she owns into his or her library, then reveals that many cards from the top of his or her library. Each player puts all artifact, creature, land, and planeswalker cards revealed this way onto the battlefield, then does the same for enchantment cards, then puts all cards revealed this way that weren't put onto the battlefield on the bottom of his or her library in any order. (Then planeswalk away from this phenomenon.)",,Brandon Kitkouski,3\40
+Mutual Epiphany,PC2,Art,Phenomenon,,,C,,"When you encounter Mutual Epiphany, each player draws four cards. (Then planeswalk away from this phenomenon.)",,Jason Felix,4\40
+Planewide Disaster,PC2,Art,Phenomenon,,,C,,"When you encounter Planewide Disaster, destroy all creatures. (Then planeswalk away from this phenomenon.)",,Dave Kendall,5\40
+Reality Shaping,PC2,Art,Phenomenon,,,C,,"When you encounter Reality Shaping, starting with you, each player may put a permanent card from his or her hand onto the battlefield. (Then planeswalk away from this phenomenon.)",,Dan Scott,6\40
+Spatial Merging,PC2,Art,Phenomenon,,,C,,"When you encounter Spatial Merging, reveal cards from the top of your planar deck until you reveal two plane cards. Simultaneously planeswalk to both of them. Put all other cards revealed this way on the bottom of your planar deck in any order.",,Gabor Szikszai,7\40
+Time Distortion,PC2,Art,Phenomenon,,,C,,"When you encounter Time Distortion, reverse the game's turn order. (For example, if play had proceeded clockwise around the table, it now goes counterclockwise. Then planeswalk away from this phenomenon.)",,rk post,8\40
+Akoum,PC2,Art,Plane - Zendikar,,,C,,"Players may cast enchantment cards as though they had flash.
+Whenever you roll {C}, destroy target creature that isn't enchanted.",,Rob Alexander,9\40
+Aretopolis,PC2,Art,Plane - Kephalai,,,C,,"When you planeswalk to Aretopolis or at the beginning of your upkeep, put a scroll counter on Aretopolis, then you gain life equal to the number of scroll counters on it.
+When Aretopolis has ten or more scroll counters on it, planeswalk.
+Whenever you roll {C}, put a scroll counter on Aretopolis, then draw cards equal to the number of scroll counters on it.",,Christopher Moeller,10\40
+Astral Arena,PC2,Art,Plane - Kolbahan,,,C,,"No more than one creature can attack each combat.
+No more than one creature can block each combat.
+Whenever you roll {C}, Astral Arena deals 2 damage to each creature.",,Sam Burley,11\40
+Bloodhill Bastion,PC2,Art,Plane - Equilor,,,C,,"Whenever a creature enters the battlefield, it gains double strike and haste until end of turn.
+Whenever you roll {C}, exile target nontoken creature you control, then return it to the battlefield under your control.",,Mark Hyzer,12\40
+Edge of Malacol,PC2,Art,Plane - Belenon,,,C,,"If a creature you control would untap during your untap step, put two +1/+1 counters on it instead.
+Whenever you roll {C}, untap each creature you control.",,Goran Josic,13\40
+Furnace Layer,PC2,Art,Plane - New Phyrexia,,,C,,"When you planeswalk to Furnace Layer or at the beginning of your upkeep, select target player at random. That player discards a card. If that player discards a land card this way, he or she loses 3 life.
+Whenever you roll {C}, you may destroy target nonland permanent.",,Kekai Kotaki,14\40
+Gavony,PC2,Art,Plane - Innistrad,,,C,,"All creatures have vigilance.
+Whenever you roll {C}, creatures you control are indestructible this turn.",,Dave Kendall,15\40
+Glen Elendra,PC2,Art,Plane - Lorwyn,,,C,,"At end of combat, you may exchange control of target creature you control that dealt combat damage to a player this combat and target creature that player controls.
+Whenever you roll {C}, gain control of target creature you own.",,Omar Rayyan,16\40
+Grand Ossuary,PC2,Art,Plane - Ravnica,,,C,,"Whenever a creature dies, its controller distributes a number of +1/+1 counters equal to its power among any number of target creatures he or she controls.
+Whenever you roll {C}, each player exiles all creatures he or she controls and puts X 1/1 green Saproling creature tokens onto the battlefield, where X is the total power of the creatures he or she exiled this way. Then planeswalk.",,Kekai Kotaki,17\40
+Grove of the Dreampods,PC2,Art,Plane - Fabacin,,,C,,"When you planeswalk to Grove of the Dreampods or at the beginning of your upkeep, reveal cards from the top of your library until you reveal a creature card. Put that card onto the battlefield and the rest on the bottom of your library in a random order.
+Whenever you roll {C}, return target creature card from your graveyard to the battlefield.",,Erica Yang,18\40
+Hedron Fields of Agadeem,PC2,Art,Plane - Zendikar,,,C,,"Creatures with power 7 or greater can't attack or block.
+Whenever you roll {C}, put a 7/7 colorless Eldrazi creature token with annihilator 1 onto the battlefield. (Whenever it attacks, defending player sacrifices a permanent.)",,19\40,Vincent Proce
+Jund,PC2,Art,Plane - Alara,,,C,,"Whenever a player casts a black, red, or green creature spell, it gains devour 5. (As the creature enters the battlefield, its controller may sacrifice any number of creatures. The creature enters the battlefield with five times that many +1/+1 counters on it.)
+Whenever you roll {C}, put two 1/1 red Goblin creature tokens onto the battlefield.",,Aleksi Briclot,20\40
+Kessig,PC2,Art,Plane - Innistrad,,,C,,"Prevent all combat damage that would be dealt by non-Werewolf creatures.
+Whenever you roll {C}, each creature you control gets +2/+2, gains trample, and becomes a Werewolf in addition to its other types until end of turn.",,Adam Paguette,21\40
+Kharasha Foothills,PC2,Art,Plane - Mongseng,,,C,,"Whenever a creature you control attacks a player, for each other opponent, you may put a token that's a copy of that creature onto the battlefield tapped and attacking that opponent. Exile those tokens at the beginning of the next end step.
+Whenever you roll {C}, you may sacrifice any number of creatures. If you do, Kharasha Foothills deals that much damage to target creature.",,Trevor Claxton,22\40
+Kilnspire District,PC2,Art,Plane - Ravnica,,,C,,"When you planeswalk to Kilnspire District or at the beginning of your precombat main phase, put a charge counter on Kilnspire District, then add {R} to your mana pool for each charge counter on it.
+Whenever you roll {C}, you may pay {X}. If you do, Kilnspire District deals X damage to target creature or player.",,John Avon,23\40
+Lair of the Ashen Idol,PC2,Art,Plane - Azgol,,,C,,"At the beginning of your upkeep, sacrifice a creature. If you can't, planeswalk.
+Whenever you roll {C}, any number of target players each put a 2/2 black Zombie creature token onto the battlefield.",,Philip Straub,24\40
+Mount Keralia,PC2,Art,Plane - Regatha,,,C,,"At the beginning of your end step, put a pressure counter on Mount Keralia.
+When you planeswalk away from Mount Keralia, it deals damage equal to the number of pressure counters on it to each creature and each planeswalker.
+Whenever you roll {C}, prevent all damage that planes named Mount Keralia would deal this game to permanents you control.",,Franz Vohwinkel,25\40
+Nephalia,PC2,Art,Plane - Innistrad,,,C,,"At the beginning of your end step, put the top seven cards of your library into your graveyard. Then return a card at random from your graveyard to your hand.
+Whenever you roll {C}, return target card from your graveyard to your hand.",,Daniel Ljunggren,26\40
+Norn's Dominion,PC2,Art,Plane - New Phyrexia,,,C,,"When you planeswalk away from Norn's Dominion, destroy each nonland permanent without a fate counter on it, then remove all fate counters from all permanents.
+Whenever you roll {C}, you may put a fate counter on target permanent.",,Igor Kieryluk,27\40
+Onakke Catacomb,PC2,Art,Plane - Shandalar,,,C,,"All creatures are black and have deathtouch.
+Whenever you roll {C}, creatures you control get +1/+0 and gain first strike until end of turn.",,Nic Klein,28\40
+Orochi Colony,PC2,Art,Plane - Kamigawa,,,C,,"Whenever a creature you control deals combat damage to a player, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.
+Whenever you roll {C}, target creature is unblockable this turn.",,Charles Urbach,29\40
+Orzhova,PC2,Art,Plane - Ravnica,,,C,,"When you planeswalk away from Orzhova, each player returns all creature cards from his or her graveyard to the battlefield.
+Whenever you roll {C}, for each opponent, exile up to one target creature card from that player's graveyard.",,Charles Urbach,30\40
+Prahv,PC2,Art,Plane - Ravnica,,,C,,"If you cast a spell this turn, you can't attack with creatures.
+If you attacked with creatures this turn, you can't cast spells.
+Whenever you roll {C}, you gain life equal to the number of cards in your hand.",,Drew Baker,31\40
+Quicksilver Sea,PC2,Art,Plane - Mirrodin,,,C,,"When you planeswalk to Quicksilver Sea or at the beginning of your upkeep, scry 4. (To scry 4, look at the top four cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)
+Whenever you roll {C}, reveal the top card of your library. You may play it without paying its mana cost.",,Charles Urbach,32\40
+Selesnya Loft Gardens,PC2,Art,Plane - Ravnica,,,C,,"If an effect would put one or more tokens onto the battlefield, it puts twice that many of those tokens onto the battlefield instead.
+If an effect would place one or more counters on a permanent, it places twice that many of those counters on that permanent instead.
+Whenever you roll {C}, until end of turn, whenever you tap a land for mana, add one mana to your mana pool of any type that land produced.",,Martina Pilcerova,33\40
+Stensia,PC2,Art,Plane - Innistrad,,,C,,"Whenever a creature deals damage to one or more players for the first time in a turn, put a +1/+1 counter on it.
+Whenever you roll {C}, each creature you control gains ""{T}: This creature deals 1 damage to target player"" until end of turn.",,Vincent Proce,34\40
+Takenuma,PC2,Art,Plane - Kamigawa,,,C,,"Whenever a creature leaves the battlefield, its controller draws a card.
+Whenever you roll {C}, return target creature you control to its owner's hand.",,Cliff Childs,35\40
+Talon Gates,PC2,Art,Plane - Dominaria,,,C,,"Any time you could cast a sorcery, you may exile a nonland card from your hand with X time counters on it, where X is its converted mana cost. If the exiled card doesn't have suspend, it gains suspend. (At the beginning of its owner's upkeep, he or she removes a time counter. When the last is removed, the player casts it without paying its mana cost. If it's a creature, it has haste.)
+Whenever you roll {C}, remove two time counters from each suspended card you own.",,Chippy,36\40
+Trail of the Mage-Rings,PC2,Art,Plane - Vryn,,,C,,"Instant and sorcery spells have rebound. (The spell's controller exiles the spell as it resolves if he or she cast it from his or her hand. At the beginning of that player's next upkeep, he or she may cast that card from exile without paying its mana cost.)
+Whenever you roll {C}, you may search your library for an instant or sorcery card, reveal it, put it into your hand, then shuffle your library.",,Vincent Proce,37\40
+Truga Jungle,PC2,Art,Plane - Ergamon,,,C,,"All lands have ""{T}: Add one mana of any color to your mana pool.""
+Whenever you roll {C}, reveal the top three cards of your library. Put all land cards revealed this way into your hand and the rest on the bottom of your library in any order.",,Jim Nelson,38\40
+Windriddle Palaces,PC2,Art,Plane - Belenon,,,C,,"Players play with the top card of their libraries revealed.
+You may play the top card of any player's library.
+Whenever you roll {C}, each player puts the top card of his or her library into his or her graveyard.",,Kekai Kotaki,39\40
+The Zephyr Maze,PC2,Art,Plane - Kyneth,,,C,,"Creatures with flying get +2/+0.
+Creatures without flying get -2/-0.
+Whenever you roll {C}, target creature gains flying until end of turn.",,rk post,40\40
+Stairs to Infinity,REL,Art,Plane - Xerex,,,R,,"Players have no maximum hand size.
+Whenever you roll the planar die, draw a card.
+Whenever you roll {C}, reveal the top card of your planar deck. You may put it on the bottom of your planar deck.",,,P1 Planechase

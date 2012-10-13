@@ -50,6 +50,14 @@ while (!feof($planesFile))
 	fwrite($cardsFile, fgets($planesFile));
 fclose($planesFile);
 
+// Copy schemes.
+echo "Copying Schemes...\n";
+$schemesFile = fopen_utf8('misc/import/schemes.csv', 'rb');
+if (!$schemesFile) error('Unable to read Scheme CSV file.');
+while (!feof($schemesFile))
+	fwrite($cardsFile, fgets($schemesFile));
+fclose($schemesFile);
+
 // Copy planes.
 echo "Copying Sorcerer's Apprentice Cards...\n";
 $sorcFile = fopen_utf8('misc/import/sorcerersApprentice.csv', 'rb');
