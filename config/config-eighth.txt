@@ -66,6 +66,8 @@ rarity.center.y = 1007
 
 [layout - miracle]
 
+[layout - timeshifted]
+
 [layout - transform-day]
 title.x = 105
 pt.transform.center.x = 610
