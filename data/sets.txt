@@ -8,7 +8,6 @@ ARE Promo - Arena
 THG Promo - Two-Headed Giant
 SUM Promo - Summer of Magic
 HHL Promo - Happy Holidays
-ARC Promo - Armada Comics
 DLM Promo - DCI Legend Membership
 PTR Promo - Pro Tour
 CVP Promo - Convention
@@ -24,7 +23,6 @@ MGD Magic Game Day
 BIN Book Inserts
 MIN Magazine Inserts
 CIN Comic Inserts
-GAR Richard Garfield Events
 LND Alternate Art Lands
 MPR Magic Player Rewards
 WLD World Championship Cards

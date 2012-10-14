@@ -66,7 +66,6 @@ Promo - Arena
 Promo - Two-Headed Giant
 Promo - Summer of Magic
 Promo - Happy Holidays
-Promo - Armada Comics
 Promo - DCI Legend Membership
 Promo - Pro Tour
 Promo - Convention
@@ -79,7 +78,6 @@ Magic Game Day
 Book Inserts
 Magazine Inserts
 Comic Inserts
-Richard Garfield Events
 Alternate Art Lands
 Magic Player Rewards
 World Championship Cards
@@ -257,7 +255,6 @@ Promo - Arena
 Promo - Two-Headed Giant
 Promo - Summer of Magic
 Promo - Happy Holidays
-Promo - Armada Comics
 Promo - DCI Legend Membership
 Promo - Pro Tour
 Promo - Convention
@@ -270,7 +267,6 @@ Magic Game Day
 Book Inserts
 Magazine Inserts
 Comic Inserts
-Richard Garfield Events
 Alternate Art Lands
 Magic Player Rewards
 World Championship Cards
