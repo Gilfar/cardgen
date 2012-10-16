@@ -1,7 +1,7 @@
 ﻿Scorned Villager,day
 Moonscarred Werewolf,night
-Loyal Cathar,day
-Unhallowed Cathar,night
+Loyal Cathar,day,W
+Unhallowed Cathar,night,B
 Ludevic's Test Subject,day
 Ludevic's Abomination,night
 Mayor of Avabruck,day
@@ -30,16 +30,16 @@ Wolfbitten Captive,day
 Krallenhorde Killer,night
 Afflicted Deserter,day
 Werewolf Ransacker,night
-"Elbrus, the Binding Blade",day
+"Elbrus, the Binding Blade",day,Art
 Withengar Unbound,night,B
 Bloodline Keeper,day
 Lord of Lineage,night
 Chosen of Markov,day
 Markov's Servant,night
-Civilized Scholar,day
-Homicidal Brute,night
-Cloistered Youth,day
-Unholy Fiend,night
+Civilized Scholar,day,U
+Homicidal Brute,night,R
+Cloistered Youth,day,W
+Unholy Fiend,night,B
 Daybreak Ranger,day
 Nightfall Predator,night
 Delver of Secrets,day

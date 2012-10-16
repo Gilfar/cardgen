@@ -140,7 +140,7 @@ class EighthRenderer extends CardRenderer {
 				$image = @imagecreatefrompng("images/eighth/$frameDir/pt/" . substr($costColors, -1, 1) . '.png');
 			else
 				$image = @imagecreatefrompng("images/eighth/$frameDir/pt/" . $card->color . '.png');
-			if (!$image) error("Power/toughness image not found for color: $color");
+			if (!$image) error("Power/toughness image not found for color: $card->color");
 			imagecopy($canvas, $image, 0, 1050 - 162, 0, 0, 736, 162);
 			imagedestroy($image);
 			$this->drawText($canvas, $settings['pt.center.x'], $settings['pt.center.y'], $settings['pt.width'], $card->pt, $this->font('pt'));
