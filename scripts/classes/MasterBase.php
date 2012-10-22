@@ -174,8 +174,8 @@ class MasterBase {
 			$flavor = str_replace('‘”', '”‘', $flavor); // ‘” to ”‘
 			$flavor = str_replace('“’', '“‘', $flavor); // “’ to “‘
 			$flavor = str_replace(',’', '’,', $flavor); // ,’ to ’,
-			$flavor = preg_replace("/\r\n- .?/", "\n—", $flavor); // - to —
-			$flavor = preg_replace("/\r\n#- .?/", "\n#—", $flavor);
+			$flavor = preg_replace("/\r\n- (.?)/", "\n—\\1", $flavor); // - to —
+			$flavor = preg_replace("/\r\n#- (.?)/", "\n#—\\1", $flavor);
 			$flavor = preg_replace("/ - /", "—", $flavor);
 			$flavor = str_replace('AE', 'Æ', $flavor);
 			$flavor = str_replace("\r\n", "\n", $flavor);
