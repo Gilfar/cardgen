@@ -39,7 +39,7 @@ class EighthRenderer extends CardRenderer {
 		$canvas = imagecreatetruecolor(736, 1050);
 
 		// Art image.
-		if($card->isEldrazi())
+		if($card->isEldrazi() && $card->isArtefact())
 			$this->drawArt($canvas, $card->artFileName, 0, 0, 1050, 736, !$config['art.keep.aspect.ratio']);
 		else
 			$this->drawArt($canvas, $card->artFileName, $settings['art.top'], $settings['art.left'], $settings['art.bottom'], $settings['art.right'], !$config['art.keep.aspect.ratio']);
@@ -86,7 +86,7 @@ class EighthRenderer extends CardRenderer {
 				if (!$greyTitleAndTypeOverlay) error('Image not found: C-overlay.png');
 			}
 		} else {
-			if($card->isEldrazi()) {
+			if($card->isEldrazi() && $card->isArtefact()) {
 				$bgImage = @imagecreatefrompng("images/eighth/$frameDir/cards/Eldrazi.png");
 			} else if ($card->isArtefact()) {
 				$bgImage = @imagecreatefrompng("images/eighth/$frameDir/cards/Art.png");
@@ -134,7 +134,7 @@ class EighthRenderer extends CardRenderer {
 
 		// Power / toughness.
 		if ($card->pt) {
-			if($card->isEldrazi()) {
+			if($card->isEldrazi() && $card->isArtefact()) {
 				$image = @imagecreatefrompng("images/eighth/$frameDir/pt/B.png");
 			} else if ($useMulticolorFrame)
 				$image = @imagecreatefrompng("images/eighth/$frameDir/pt/" . substr($costColors, -1, 1) . '.png');
@@ -238,7 +238,7 @@ class EighthRenderer extends CardRenderer {
 			$footerColor = '255,255,255';
 		else if (($costColors == 'B' || $card->color == 'B') && !$card->isArtefact())
 			$footerColor = '255,255,255';
-		else if ($card->isEldrazi())
+		else if ($card->isEldrazi() && $card->isArtefact())
 			$footerColor = '255,255,255';
 		else if ($useMulticolorFrame) {
 			// Only multicolor frames with a bottom left color of black should use a white footer.
