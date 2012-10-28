@@ -142,7 +142,7 @@ class ImageWriter {
 			$renderer[] = new TransformRenderer($this->setDB, "night");
 		} else if(strpos($card->legal, "\n-----\n") !== FALSE)
 			$renderer[] = new EighthFlipRenderer($this->setDB);
-		else if ($card->set == "VG" && $config['render.vanguard'])
+		else if ($card->set == "VAN" && $config['render.vanguard'])
 			$renderer[] = new VanguardRenderer($this->setDB);
 		else if (strpos($card->title, "Jace, the Mind Sculptor")!== FALSE && $config['render.planeswalker'])
 			$renderer[] = new PlanesWalker4Renderer($this->setDB);
