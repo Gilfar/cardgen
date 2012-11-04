@@ -85,6 +85,11 @@ class EighthRenderer extends CardRenderer {
 				$greyTitleAndTypeOverlay = @imagecreatefrompng("images/eighth/$frameDir/cards/C-overlay.png");
 				if (!$greyTitleAndTypeOverlay) error('Image not found: C-overlay.png');
 			}
+			// Green title/type image
+			if (strtolower($card->title) == 'murmuring bosk') {
+				$greyTitleAndTypeOverlay = @imagecreatefrompng("images/eighth/$frameDir/cards/G-overlay.png");
+				if (!$greyTitleAndTypeOverlay) error('Image not found: G-overlay.png');
+			}
 		} else {
 			if($card->isEldrazi() && $card->isArtefact()) {
 				$bgImage = @imagecreatefrompng("images/eighth/$frameDir/cards/Eldrazi.png");
