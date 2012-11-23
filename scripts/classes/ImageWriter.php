@@ -64,7 +64,7 @@ class ImageWriter {
 				$decklistRenderer->cards = $decklist->cards;
 				$decklistRenderer->writer = $this;
 				$decklistRenderer->outputDir = $config['output.directory'];
-				$decklistRenderer->outputName = array('Decklist - ' . $decklist->name);
+				$decklistRenderer->outputName = 'Decklist - ' . $decklist->name;
 				$this->renderers[] = $decklistRenderer;
 			} else {
 				// Enough cards for a multi page list.
@@ -82,7 +82,7 @@ class ImageWriter {
 					$decklistRenderer->wholeDeck = $decklist->cards;
 					$decklistRenderer->writer = $this;
 					$decklistRenderer->outputDir = $config['output.directory'];
-					$decklistRenderer->outputName = array('Decklist - ' . $decklist->name . ' page ' . (floor($cardsRendered / $cardsPerDeckpage) + 1));
+					$decklistRenderer->outputName = 'Decklist - ' . $decklist->name . ' page ' . (floor($cardsRendered / $cardsPerDeckpage) + 1);
 					$this->renderers[] = $decklistRenderer;
 					$cardsRendered += $cardsPerDeckpage;
 				}

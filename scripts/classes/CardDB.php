@@ -88,7 +88,7 @@ class CardDB {
 							}
 						// Find the card from needed edition and apply localized flavor.
 						foreach ($cards as $card) {
-							if ($card->set == $row[1]) {
+							if ($card->set == $setDB->normalize($row[1])) {
 								$card->flavor = $row[2];
 								break;
 							}
