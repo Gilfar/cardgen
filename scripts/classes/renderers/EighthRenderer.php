@@ -19,6 +19,7 @@ class EighthRenderer extends CardRenderer {
 	static private $titleToPhyrexia;
 	static private $titleToFrameDir;
 	static private $titleToTransform;
+	static private $titleToIndicator;
 
 	public function render () {
 		global $config;
@@ -104,7 +105,7 @@ class EighthRenderer extends CardRenderer {
 						$useMulticolorFrame = false;
 						$borderImage = @imagecreatefrompng("images/eighth/$frameDir/borders/$card->color.png");
 					}
-				} else if (strlen($costColors) >= 2) {
+				} else if (strlen($costColors) >= 2 || $card->color == 'Gld') {
 					$useMulticolorFrame = false;
 					$borderImage = @imagecreatefrompng("images/eighth/$frameDir/borders/Gld.png");
 				}
@@ -172,7 +173,13 @@ class EighthRenderer extends CardRenderer {
 		echo '.';
 
 		// Type.
-		$typex = ($frameDir == "transform-night" && $card->isArtefact()) ? $settings['type.art.x'] : $settings['type.x'];
+		if($indicator = $this->getIndicator($card->title)) {
+			$image = @imagecreatefrompng("images/symbols/indicators/" . $indicator . '.png');
+			imagecopyresampled($canvas, $image, $settings['indicator.x'], $settings['indicator.y'], 0, 0, $settings['indicator.size'], $settings['indicator.size'], 300, 300);
+			imagedestroy($image);
+			$typex = $settings['type.indicator.x'];
+		} else
+			$typex = ($frameDir == "transform-night" && $card->isArtefact()) ? $settings['type.art.x'] : $settings['type.x'];
 		$this->drawText($canvas, $typex, $settings['type.y'], $rarityLeft - $settings['type.x'], $card->type, $this->font('type'));
 
 		// Guild sign.
@@ -281,6 +288,11 @@ class EighthRenderer extends CardRenderer {
 	private function getPhyrexia ($title) {
 		if (!EighthRenderer::$titleToPhyrexia) EighthRenderer::$titleToPhyrexia = csvToArray('data/eighth/titleToPhyrexia.csv');
 		return @EighthRenderer::$titleToPhyrexia[(string)strtolower($title)];
+	}
+
+	private function getIndicator ($title) {
+		if (!EighthRenderer::$titleToIndicator) EighthRenderer::$titleToIndicator = csvToArray('data/eighth/titleToIndicator.csv');
+		return @EighthRenderer::$titleToIndicator[(string)strtolower($title)];
 	}
 
 	private function getFrameDir ($title, $set, $settings) {
