@@ -138,8 +138,8 @@ class ImageWriter {
 		else if(array_key_exists(strtolower($card->title), $this->titleToLevel))
 			$renderer[] = new LevelRenderer($this->setDB);
 		else if(array_key_exists(strtolower($card->title), $this->titleToTransform) && strpos($card->legal, "\n-----\n") !== FALSE) {
-			$renderer[] = new TransformRenderer($this->setDB, "day");
-			$renderer[] = new TransformRenderer($this->setDB, "night");
+			$renderer[] = new TransformRenderer($this->setDB, $this->artDB, "day");
+			$renderer[] = new TransformRenderer($this->setDB, $this->artDB, "night");
 		} else if(strpos($card->legal, "\n-----\n") !== FALSE)
 			$renderer[] = new EighthFlipRenderer($this->setDB);
 		else if ($card->set == "VAN" && $config['render.vanguard'])

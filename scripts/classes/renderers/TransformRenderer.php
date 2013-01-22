@@ -17,8 +17,9 @@ class TransformRenderer extends CardRenderer {
 	public $version;
 	static private $titleToTransform;
 
-	public function __construct (SetDB $setDB, $version) {
+	public function __construct (SetDB $setDB, ArtDB $artDB, $version) {
 		$this->setDB = $setDB;
+		$this->artDB = $artDB;
 		$this->version = $version;
 	}
 
@@ -70,6 +71,7 @@ class TransformRenderer extends CardRenderer {
 		$card2->legal = $legal2;
 		$card2->flavor = $flavor2;
 		$card2->cost = "";
+		$card2->artFileName = $this->artDB->getArtFileName($card2->title, $card2->set, $card2->pic);
 		if(TransformRenderer::$titleToTransform[(string)strtolower($card1->title)][1] != '')
 			$card1->color = TransformRenderer::$titleToTransform[(string)strtolower($card1->title)][1];
 		if(TransformRenderer::$titleToTransform[(string)strtolower($card2->title)][1] != '')
