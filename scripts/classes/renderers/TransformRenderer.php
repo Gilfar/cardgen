@@ -43,7 +43,7 @@ class TransformRenderer extends CardRenderer {
 		$card1->legal = $cards[0];
 		$card1->flavor = $flavor1;
 
-		if (preg_match("/(.*?)\n(.*?)\n(.*?)\n(.*)/s", $cards[1], $matches) && !$card->isPlaneswalker()) {
+		if (preg_match("/(.*?)\n(.*?)\n([0-9\/]+)\n(.*)/s", $cards[1], $matches) && !$card->isPlaneswalker()) {
 			$title2 = $matches[1];
 			$type2 = $matches[2];
 			$pt2 = $matches[3];
@@ -58,9 +58,6 @@ class TransformRenderer extends CardRenderer {
 
 		if($pt2 != "")
 			$card1->pt .= '|'.$pt2;
-
-		$title2 = str_replace('AE', 'A', $title2);
-		$title2 = str_replace("'", '’', $title2);
 
 		$card2 = clone $this->card;
 		$card2->setDisplayTitle($title2);

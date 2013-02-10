@@ -113,6 +113,7 @@ class Card {
 			$title = str_replace("'", '’', $title);
 			$title = str_replace(' en-', ' #en#-', $title);
 			$title = str_replace(' il-', ' #il#-', $title);
+			$title = str_replace('Sarpadian Empires, Vol. VII', '#Sarpadian Empires, Vol. VII#', $title);
 		}
 		return $title;
 	}

@@ -8,7 +8,7 @@ card.flavor.random = 0
 card.larger.regular.symbols = 0
 card.old.tap.symbol = 1
 card.artist.and.copyright = 1
-card.copyright = "&#8482; & &#169; 1993-2012 Wizards of the Coast LLC"
+card.copyright = "&#8482; & &#169; 1993-2013 Wizards of the Coast LLC"
 card.reminder.text = 1
 
 [card text]
@@ -21,7 +21,7 @@ card.text.double.spacing = 50
 render.eighth = 1
 render.preEighth = 1
 render.preEighth.basic.land.frames = 1
-render.decklist = 0
+render.decklist = 1
 render.vanguard = 1
 render.planeswalker = 1
 render.plane = 1
@@ -63,7 +63,7 @@ output.card.offsets.y =
 [cropped art]
 art.random = 0
 art.keep.aspect.ratio = 1
-art.directory = e:\mtg\pics
+art.directory = f:\mtg\pics
 art.extension = jpg
 art.error.when.missing = 0
 art.debug = 0
